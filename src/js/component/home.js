@@ -26,6 +26,7 @@ export function Home() {
 					onClick={() => setClicked("red")}
 					className={"red " + redLight}
 				/>
+				<div />
 				<div
 					onClick={() => setClicked("yellow")}
 					className={"yellow " + yellowLight}
